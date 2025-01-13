@@ -1,0 +1,406 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+}       
+.logo{
+    margin: 15px 0px;
+}
+
+
+h2{
+    color:#000;
+    font-weight: 600;
+   
+  
+}
+
+#logo_url{
+    color: #009990;
+    font-size: 14px;
+    display: inline-flex;
+    
+}
+#address-names{
+    color: #009990;
+}
+a {
+    text-decoration: none;
+}
+h4{
+    color: black;
+    
+}
+h5{
+    color: #009990;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size: 17px;
+}
+h6{
+    font-size: 15px;
+}
+strong{
+    color: #333;
+}
+.form{
+    background: #fff;
+    border-radius: 25px;
+    box-shadow: 0 10px 15px rgba(0,0,0,.1);
+    padding: 20px;
+    width: 400x;
+    margin-top: 8rem  ;
+    padding-top: 135px;
+   
+    /* margin-left: -48px; */
+    font-size: small;
+}
+#exampleInputEmail1{
+    font-size: 12px;
+} 
+#card-number{
+    font-size: smaller;
+    font-style: none;
+    font-weight: bold;
+}
+#card-number{
+    font-size: smaller;
+    font-style: none;
+    font-weight: bold;
+}
+#card-number::placeholder{
+font-size: xx-large;
+}
+label{
+    margin: 0.5rem;
+    font-size: 12px;
+}
+
+.inputBox{
+    padding: 0;
+    margin: 0;
+   
+}
+
+ form .inputBox span{
+    display: block;
+    color:#999;
+    padding-bottom: 5px;
+       margin-top: 1rem;
+       font-size: 12px;
+}
+
+ form .inputBox input,
+ form .inputBox select{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border:1px solid rgba(0,0,0,.3);
+    color:#444;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3), -3px -3px 10px rgba(0, 0, 0, 0.1);
+}
+ form .flexbox{
+    display: flex;
+    gap:15px;
+}
+
+ form .flexbox .inputBox{
+    flex:1 1 50px;
+}
+
+
+ form .submit-btn{
+    width: 100%;
+    background: linear-gradient(135deg, #003300, #004d00, #006600);
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 20px;
+    color:#fff;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .2s linear;
+}
+
+form .submit-btn:hover{
+    letter-spacing: 2px;
+    opacity: .8;
+}
+
+.card-container{
+    /* margin-bottom: -218px; */
+    margin-bottom: 50px;
+    position: relative;
+    height: 230px;
+    width: 400px;
+    /* margin-left: 3rem; */
+
+    font-size: small;
+    display: block;
+    margin: 0 auto 61px;
+}
+
+  .front{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0; left: 0;
+    background: linear-gradient(45deg, #BB1900, #FD6F01, #FFB000); 
+      border-radius: 5px;
+    backface-visibility: hidden;
+    box-shadow: 0 15px 25px rgba(0,0,0,.2);
+    padding:20px;
+    transform:perspective(1000px) rotateY(0deg);
+    transition:transform .4s ease-out;
+    border-radius: 15px;
+    margin-top: 2rem;
+}
+
+ .card-container .front .image{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+ .card-container .front .image img{
+    height: 50px;
+}
+
+ .card-container .front .card-number-box{
+    padding:30px 0;
+    font-size: 15px;
+    color:#fff;
+
+}
+
+ .card-container .front .flexbox{
+    display: flex;
+}
+
+ .card-container .front .flexbox .box:nth-child(1){
+    margin-right: auto;
+}
+
+ .card-container .front .flexbox .box{
+    font-size: 12px;
+    color:#fff;
+}
+
+ .card-container .back{
+    position: absolute;
+    top:0; left: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(45deg, #BB1900, #FD6F01, #FFB000); 
+        border-radius: 5px;
+    padding: 20px 0;
+    text-align: right;
+    backface-visibility: hidden;
+    box-shadow: 0 15px 25px rgba(0,0,0,.2);
+    transform:perspective(1000px) rotateY(180deg);
+    transition:transform .4s ease-out;
+    margin-top: 2rem;
+}
+
+.card-container .back .stripe{
+    background: #000;
+    width: 100%;
+    margin: 10px 0;
+    height: 50px;
+}
+
+ .card-container .back .box{
+    padding: 0 20px;
+}
+
+ .card-container .back .box span{
+    color:#fff;
+    font-size: 15px;
+}
+
+ .card-container .back .box .cvv-box{
+    height: 50px;
+    padding: 10px;
+    margin-top: 5px;
+    color:#333;
+    background: #fff;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.card-container .back .box img{
+    margin-top: 30px;
+    height: 30px;
+}
+.card-number-input{
+    font-weight: bolder;
+    font-size: larger;
+}
+#btn-sub{
+    width: 100%;
+    display: inline-block;
+    background-color: #FFB000;
+    margin-top: 2rem;
+    height: 3rem;
+    border: 2px #FD6F01 solid;
+    border-radius: 45px 0px;
+    color: white;
+    font-weight: bolder;
+}
+#btn-sub:hover{
+    color: #FFB000;
+    background-color: #fff;
+
+}
+.totalAmount{
+    display: flex;
+    justify-content: space-between;
+
+}
+.totalAmount .amountRate{
+    margin: 0px 2rem;
+}
+.summary-btns-wrapper{
+    display: grid;
+    justify-content: center;
+    /* margin: 0 10rem auto; */
+    background-color: white;
+    box-shadow: 0 15px 25px rgba(0,0,0,.2);
+    
+    
+}
+.summary-btns-wrapper li{
+    list-style: none;
+}
+.text-start{
+    margin-top: 3rem;
+}
+
+tfoot{
+    float: right;
+
+    
+}
+#Total-amount{
+    color:  #FD6F01;
+}
+.leftside{
+padding: 0px 78px;
+}
+
+.amount{
+    display: block;
+   margin-left: 35rem;
+   margin-top: 2rem;
+   font-size: large;
+}
+#amount-head{
+
+    color: #FD6F01;margin-top: 1rem;font-weight: bolder;
+                                
+}
+.total{
+    width: 50%; 
+    margin-left: 50%;
+}
+
+.product-images{
+    display: flex;
+    justify-content: space-between;
+}
+.totalAmount{
+    float: right;
+}
+
+#img-para{
+    font-size: 14px ;
+}
+address{
+    text-align: end;
+}
+table{
+    text-align: center;
+}
+table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+    background-color: lightgray;
+}
+@media (max-width:600px)
+{
+form .inputBox span {
+   
+    font-size: 14px;
+}
+    form .inputBox span {
+        
+        font-size: 12px;
+    }
+    form .inputBox input, form .inputBox select {
+    
+    padding: 5px;
+    font-size: 13px;
+   
+}
+.summary-btns-wrapper{
+    /* display: grid;
+    justify-content: center; */
+    /* margin: 0 10rem auto; */
+    background-color: white;
+    box-shadow: 0 15px 25px rgba(0,0,0,.2);
+    margin-bottom: 1rem;
+    margin-right: 4rem;
+    
+    
+}
+.amount{
+    display: block;
+   margin-left: 0px;
+   margin-top: 2rem;
+   font-size: large;
+}
+.total{
+    width: 0px; 
+
+}
+
+
+
+
+}
+
+
+   @media (max-width:1044px)
+   {
+    .card-container {
+      
+        width: auto;
+      
+    }
+    form .inputBox input, form .inputBox select {
+        
+        font-size: 12px;
+    }
+    .summary-btns-wrapper{
+        display: grid;
+        justify-content: center;
+        /* margin: 0 10rem auto; */
+        background-color: white;
+        box-shadow: 0 15px 25px rgba(0,0,0,.2);
+        margin-bottom: 1rem;
+    margin-right: 4rem;
+        
+        
+    }
+    .amount{
+        display: block;
+       margin-left: 0rem;
+       margin-top: 2rem;
+       font-size: large;
+    }
+   }
