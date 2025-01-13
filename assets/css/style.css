@@ -13,10 +13,10 @@
 }
 
 
-h2{
+h3{
     color:#000;
     font-weight: 400;
-   
+   margin: 0px;
   
 }
 
@@ -331,6 +331,9 @@ table thead th {
     vertical-align: bottom;
     border-bottom: 2px solid #dee2e6;
     background-color: lightgray;
+}
+.amount-result{
+    font-weight: bold   ;
 }
 @media (max-width:600px)
 {
