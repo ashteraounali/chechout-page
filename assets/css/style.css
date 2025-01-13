@@ -30,6 +30,9 @@ h3{
 #address-names{
     color: #009990;
 }
+address{
+    color: #333;
+}
 a {
     text-decoration: none;
 }
