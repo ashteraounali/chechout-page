@@ -15,15 +15,16 @@
 
 h2{
     color:#000;
-    font-weight: 600;
+    font-weight: 400;
    
   
 }
 
-#logo_url{
+ #logo_url{
     color: #009990;
     font-size: 14px;
     display: inline-flex;
+    margin-bottom: 1rem;
     
 }
 #address-names{
