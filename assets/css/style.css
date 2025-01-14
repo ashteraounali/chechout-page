@@ -34,6 +34,7 @@ h3{
     font-size: 14px;
     display: inline-flex;
     margin-bottom: 1rem;
+    text-transform: lowercase;
     
 }
 #address-names{
@@ -269,6 +270,7 @@ form .submit-btn:hover{
 #btn-sub:hover{
     color: var(--bs-primary);
     background-color: #fff;
+    transition: 0.5s;
 
 }
 .totalAmount{
