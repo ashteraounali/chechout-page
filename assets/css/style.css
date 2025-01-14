@@ -393,9 +393,7 @@ form .inputBox span {
    
 }
 .summary-btns-wrapper{
-    /* display: grid;
-    justify-content: center; */
-    /* margin: 0 10rem auto; */
+
     background-color: white;
     box-shadow: 0 15px 25px rgba(0,0,0,.2);
     margin-bottom: 1rem;
@@ -430,7 +428,7 @@ form .inputBox span {
     .summary-btns-wrapper{
         display: grid;
         justify-content: center;
-        /* margin: 0 10rem auto; */
+       
         background-color: white;
         box-shadow: 0 15px 25px rgba(0,0,0,.2);
         margin-bottom: 1rem;
