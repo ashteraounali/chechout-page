@@ -11,6 +11,10 @@
 :root {
     --bs-primary: #2F502DFF;
     --bs-secondary: #444444;
+    --light-color: rgba(47, 80, 45, 0.2);
+    --bs-primary-b: #0d6efd;
+
+   
 }
 
 .logo{
@@ -33,7 +37,7 @@ h3{
     
 }
 #address-names{
-    color:var(--bs-primary);
+    color:var(--bs-primary-b);
 }
 address{
     color: #333;
@@ -47,7 +51,7 @@ h4{
 }
 h5{
     
-    color: var(--bs-primary);
+    color: var(--bs-primary-b);
     font-family: 'Poppins', sans-serif;
     font-weight: bolder;
     font-size: 17px;
@@ -339,7 +343,7 @@ table{
 table thead th {
     vertical-align: bottom;
     border-bottom: 2px solid #dee2e6;
-    background-color: rgb(39, 37, 37);
+    background-color: var(--bs-secondary);
     color: white;
 }
 .amount-result{
