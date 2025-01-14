@@ -15,7 +15,7 @@ document.querySelector(".card-number-input").oninput = () => {
   };
 
   document.querySelector(".year-input").oninput = () => {
-    document.querySelector(".exp- ").innerText =
+    document.querySelector(".exp-year").innerText =
       document.querySelector(".year-input").value;
   };
 
