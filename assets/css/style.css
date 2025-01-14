@@ -369,7 +369,9 @@ table thead th {
   float:right;
 }
 
-
+.Am-desc{
+    width: 100%;
+}
 .Am-desc p{
     border-bottom:   solid 1px var(--light-color);
     text-align: start;
