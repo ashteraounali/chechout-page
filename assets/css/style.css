@@ -444,4 +444,13 @@ form .inputBox span {
        margin-top: 2rem;
        font-size: large;
     }
+    .totalAmount{
+        display: flex;
+    justify-content: flex-start;
+        
+    }
+    .Am-desc{
+        width: 100%;
+
+    }
    }
