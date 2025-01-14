@@ -20,7 +20,9 @@
 .logo{
     margin: 15px 0px;
 }
-
+h2{
+    font-weight: 600;
+}
 
 h3{
     color:#000;
@@ -38,7 +40,7 @@ h3{
     
 }
 #address-names{
-    color:var(--bs-primary-b);
+    color:var(--bs-secondary);
 }
 address{
     color: #333;
@@ -52,10 +54,11 @@ h4{
 }
 h5{
     
-    color: var(--bs-primary-b);
+    color: var(--bs-secondary);
     font-family: 'Poppins', sans-serif;
     font-weight: bolder;
     font-size: 17px;
+    font-weight: bo;
 }
 h6{
     font-size: 15px;
@@ -164,7 +167,8 @@ form .submit-btn:hover{
     height: 100%;
     width: 100%;
     top: 0; left: 0;
-    background: linear-gradient(45deg, #BB1900, #FD6F01, #FFB000); 
+    /* background: linear-gradient(45deg, #BB1900, #FD6F01, #FFB000);  */
+    background-color: var(--bs-secondary);
       border-radius: 5px;
     backface-visibility: hidden;
     box-shadow: 0 15px 25px rgba(0,0,0,.2);
@@ -211,7 +215,8 @@ form .submit-btn:hover{
     top:0; left: 0;
     height: 100%;
     width: 100%;
-    background: linear-gradient(45deg, #BB1900, #FD6F01, #FFB000); 
+    /* background: linear-gradient(45deg, #BB1900, #FD6F01, #FFB000);  */
+    background-color: var(--bs-secondary);
         border-radius: 5px;
     padding: 20px 0;
     text-align: right;
@@ -259,7 +264,7 @@ form .submit-btn:hover{
 #btn-sub{
     width: 100%;
     display: inline-block;
-    background-color: var(--bs-primary);
+    background-color: var(--bs-secondary);
     margin-top: 2rem;
     height: 3rem;
     border: 2px var(--bs-secondary) solid;
@@ -356,7 +361,10 @@ table thead th {
 }
 .sub-table td{
     padding: 0.5rem;
+    border-bottom: solid 0.5px var(--light-color)
+    ;
 }
+
 @media (max-width:600px)
 {
 form .inputBox span {
