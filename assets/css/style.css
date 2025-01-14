@@ -10,7 +10,8 @@
 } 
 :root {
     --bs-primary: #2F502DFF;
-    --bs-secondary: #444444;
+    --bs-secondary: #444444; 
+    /*  color #444444 */
     --light-color: rgba(47, 80, 45, 0.2);
     --bs-primary-b: #0d6efd;
 
@@ -280,7 +281,8 @@ form .submit-btn:hover{
 }
 .totalAmount{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
+    
 
 }
 .totalAmount .amountRate{
@@ -334,9 +336,7 @@ padding: 0px 78px;
     display: flex;
     justify-content: space-between;
 }
-.totalAmount{
-    float: right;
-}
+
 
 #img-para{
     font-size: 14px ;
@@ -361,8 +361,19 @@ table thead th {
 }
 .sub-table td{
     padding: 0.5rem;
-    border-bottom: solid 0.5px var(--light-color)
+    border-bottom: solid 0.5px var()
     ;
+}
+.Am-desc span{
+   padding: 0px;
+  float:right;
+}
+
+
+.Am-desc p{
+    border-bottom:   solid 1px var(--light-color);
+    text-align: start;
+    
 }
 
 @media (max-width:600px)
