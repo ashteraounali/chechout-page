@@ -7,7 +7,12 @@
     outline: none; border: none;
     text-decoration: none;
     text-transform: capitalize;
-}       
+} 
+:root {
+    --bs-primary: #2F502DFF;
+    --bs-secondary: #444444;
+}
+
 .logo{
     margin: 15px 0px;
 }
@@ -21,14 +26,14 @@ h3{
 }
 
  #logo_url{
-    color: #009990;
+    color: var(--bs-secondary);
     font-size: 14px;
     display: inline-flex;
     margin-bottom: 1rem;
     
 }
 #address-names{
-    color: #009990;
+    color:var(--bs-primary);
 }
 address{
     color: #333;
@@ -42,7 +47,7 @@ h4{
 }
 h5{
     
-    color: #009990;
+    color: var(--bs-primary);
     font-family: 'Poppins', sans-serif;
     font-weight: bolder;
     font-size: 17px;
@@ -249,16 +254,16 @@ form .submit-btn:hover{
 #btn-sub{
     width: 100%;
     display: inline-block;
-    background-color: #FFB000;
+    background-color: var(--bs-primary);
     margin-top: 2rem;
     height: 3rem;
-    border: 2px #FD6F01 solid;
+    border: 2px var(--bs-secondary) solid;
     border-radius: 45px 0px;
     color: white;
     font-weight: bolder;
-}
+}   
 #btn-sub:hover{
-    color: #FFB000;
+    color: var(--bs-primary);
     background-color: #fff;
 
 }
@@ -334,10 +339,17 @@ table{
 table thead th {
     vertical-align: bottom;
     border-bottom: 2px solid #dee2e6;
-    background-color: lightgray;
+    background-color: rgb(39, 37, 37);
+    color: white;
 }
 .amount-result{
     font-weight: bold   ;
+}
+.sub-table{
+    float: right;
+}
+.sub-table td{
+    padding: 0.5rem;
 }
 @media (max-width:600px)
 {

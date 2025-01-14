@@ -15,12 +15,13 @@
 <body>
   <div class="container-fluid">
     <div class="row bg-light border border-secondary rounded-top pb-5">
-      <div class="col-md-7">
+      <div class="col-md-7 ml-5">
+        
         <div class="summary-title text-center mt-5 h2">Order Summary</div>
         <div style="display: flex; justify-content: space-between;">
           <div>
             <div>
-              <h5 class="mt-5">INVOICE NO:0000002</h5>
+              <h5 class="mt-5" id="invoic-no">INVOICE NO:0000002</h5>
             </div>
             <img class="logo" src="/assets/image/image.png" class="img-fluid" style="WIDTH: 217PX;">
             <h2> Head Phone</h2>
@@ -68,32 +69,22 @@
           </tbody>
 
         </table>
-        <div>
-
-          <div class="totalAmount mt-4">
-            <hr>
-            <div class="Am-desc">
-              <p>Sub Total</p>
-              <hr>
-              <p>Total</p>
-              <hr>
-              <p>Total Paid</p>
-              <hr>
-              <p class="amount-result">Amount Due</p>
-              <hr>
-            </div>
-            <div class="amountRate">
-              <p>$343</p>
-              <hr>
-              <p>$343</p>
-              <hr>
-              <p>$343</p>
-              <hr>
-              <p class="amount-result">$343</p>
-              <hr>
-            </div>
-          </div>
-        </div>
+       <table class="sub-table">
+        <tr>
+          <td>Sub Total</td>
+          <td>$121</td>
+          
+        </tr>
+        <tr>
+          <td>Total</td>
+          <td>$121</td>
+        </tr>
+        <tr> 
+          <td><strong>Amount Due</strong></td>
+          <td><strong>$121</strong>
+          </td>
+        </tr>
+      </table>
       </div>
 
 
