@@ -414,9 +414,9 @@ form .inputBox span {
 
 }
 .totalAmount{
-    /* display: flex;
-justify-content: flex-start; */
-    max-width: 12rem;
+   float: right;
+    /* max-width: 12rem; */
+    margin-bottom: 12rem;
     
 }
 .text-center{
@@ -426,7 +426,7 @@ justify-content: flex-start; */
    width: 12px;
  
 }
-.table thead{
+}
     
 
 
@@ -467,4 +467,5 @@ justify-content: flex-start; */
         width: 100%;
 
     }
-   }}
+   }
+    
