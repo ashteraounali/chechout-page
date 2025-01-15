@@ -413,7 +413,21 @@ form .inputBox span {
     width: 0px; 
 
 }
+.totalAmount{
+    /* display: flex;
+justify-content: flex-start; */
+    max-width: 12rem;
+    
 }
+.text-center{
+
+}
+.table {
+   width: 12px;
+ 
+}
+.table thead{
+    
 
 
    @media (max-width:1044px)
@@ -444,13 +458,13 @@ form .inputBox span {
        margin-top: 2rem;
        font-size: large;
     }
-    .totalAmount{
+    /* .totalAmount{
         display: flex;
     justify-content: flex-start;
         
-    }
+    } */
     .Am-desc{
         width: 100%;
 
     }
-   }
+   }}
