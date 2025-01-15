@@ -415,16 +415,17 @@ form .inputBox span {
 }
 .totalAmount{
    float: right;
-    /* max-width: 12rem; */
-    margin-bottom: 12rem;
+    /* max-width: 12rem; */max-width: auto;
+   
     
 }
-.text-center{
 
-}
 .table {
    width: 12px;
  
+}
+#top-desc address{
+
 }
 }
     
